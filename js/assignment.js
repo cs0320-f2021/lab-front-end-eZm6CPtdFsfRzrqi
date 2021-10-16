@@ -115,7 +115,7 @@ function displayCart () {
 
 
     //TODO: update the inner html of the element with ID #cart-total with the compounded total!
-    document.querySelector('#cart-total').innerHTML = "${total}"
+    document.querySelector('#cart-total').innerHTML = `<div> $${total} </div>`
 }
 
 setUpShop()
